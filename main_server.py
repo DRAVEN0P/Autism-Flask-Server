@@ -12,10 +12,10 @@ from Feature_Extraction import Feature
 app = Flask(__name__)
 
 # Load your model and scaler
-model = joblib.load('./models/logistic_regression_model.pkl')
-scaler = joblib.load('./models/scaler.joblib')
+model = joblib.load('models/logistic_regression_model.pkl')
+scaler = joblib.load('models/scaler.joblib')
 # Ensure you have saved the scaler
-modelWriting = joblib.load('./models/wr_model.pkl')
+modelWriting = joblib.load('models/wr_model.pkl')
 face_cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 

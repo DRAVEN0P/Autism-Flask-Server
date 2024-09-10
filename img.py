@@ -193,8 +193,8 @@ import pandas as pd
 import dlib
 
 # Paths to models
-cnn_face_detector_model_path = './models/mmod_human_face_detector.dat'
-shape_predictor_model_path = './models/shape_predictor_68_face_landmarks.dat'
+cnn_face_detector_model_path = 'models/mmod_human_face_detector.dat'
+shape_predictor_model_path = 'models/shape_predictor_68_face_landmarks.dat'
 
 # Load dlib models
 cnn_face_detector = dlib.cnn_face_detection_model_v1(cnn_face_detector_model_path)
