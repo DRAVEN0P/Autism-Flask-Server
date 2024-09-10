@@ -1,0 +1,10 @@
+Flask
+flask-cors
+gunicorn
+Flask
+numpy
+opencv-python
+Pillow
+joblib
+Pyrebase4
+dlib
