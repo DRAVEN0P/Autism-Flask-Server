@@ -1,8 +1,5 @@
 from flask import Flask, request, jsonify
-import numpy as np
 import cv2
-from io import BytesIO
-from PIL import Image
 import joblib
 import os
 import logging
