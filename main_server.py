@@ -127,12 +127,9 @@ def upload_file():
                 'localShimmer': localShimmer,
             })
         except Exception as e:
-            logging.error(f"Error extracting metrics: {
-                          traceback.format_exc()}")
             return jsonify({"error": str(e)}), 500
 
     except Exception as e:
-        logging.error(f"Error processing file: {traceback.format_exc()}")
         return jsonify({"error": str(e)}), 500
 
 

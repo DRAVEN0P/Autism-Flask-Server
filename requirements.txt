@@ -1,10 +1,12 @@
 Flask
+cmake
 flask-cors
 gunicorn
-Flask
 numpy
 opencv-python
 Pillow
 joblib
 Pyrebase4
-dlib
+pandas
+# dlib
+librosa
