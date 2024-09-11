@@ -2,6 +2,7 @@ Flask
 cmake
 flask-cors
 gunicorn
+numpy
 opencv-python
 Pillow
 joblib
